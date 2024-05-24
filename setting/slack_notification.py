@@ -26,7 +26,7 @@ def notif_slack():
 
     test_success_rate = float(test_passed) / float(test_total) * 100
 
-    if float(test_failed) > 1:
+    if float(test_failed) >= 1:
         color = "FF1E00"
     else:
         color = "3CFF29"
