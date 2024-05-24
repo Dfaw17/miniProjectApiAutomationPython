@@ -131,6 +131,7 @@ def notif_slack():
         ]
     }
     req = requests.post(WEBHOOK, json=payload)
+    print(req.text)
 
 
 notif_slack()
