@@ -1,0 +1,99 @@
+{
+	"attachments": [
+		{
+			"color": "FF1E00",
+			"blocks": [
+				{
+					"type": "header",
+					"text": {
+						"type": "plain_text",
+						"text": "API AUTOMATION",
+						"emoji": true
+					}
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "section",
+					"fields": [
+						{
+							"type": "mrkdwn",
+							"text": "*Success Test:*\n 200"
+						},
+						{
+							"type": "mrkdwn",
+							"text": "*Failed Test:*\n 25"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"fields": [
+						{
+							"type": "mrkdwn",
+							"text": "*Skipped Test:*\n0"
+						},
+						{
+							"type": "mrkdwn",
+							"text": "*Total Test:*\n 225"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"fields": [
+						{
+							"type": "mrkdwn",
+							"text": "*Success Rate:*\n 85%"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"text": {
+						"type": "mrkdwn",
+						"text": "<https://google.com|Link Report Test>"
+					}
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "rich_text",
+					"elements": [
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "tested by : DAFFA FAWWAZ MAULANA",
+									"style": {
+										"italic": true
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "rich_text",
+					"elements": [
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "created at : 10-05-2024 16:00",
+									"style": {
+										"italic": true
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
