@@ -28,6 +28,6 @@ def test():
     res_msg = req.json()[0]["message"]
 
     # ASSERT
-    assert_that(status_code).is_equal_to(422)
+    assert_that(status_code).is_equal_to(42255)
     assert_that(res_field).is_equal_to("email")
     assert_that(res_msg).is_equal_to("can't be blank")
